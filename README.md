@@ -25,13 +25,5 @@
     - npm start (levanta la App de react en el puerto 3000 de localhost)
     en su navegador valla a http://localhost:3000/
 
-## Capturas de Pantalla:
-
-# Login:
-
-<p >
-  <img src="./login.jpg" />
-</p>
-
 
 
