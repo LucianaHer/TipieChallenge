@@ -1,0 +1,70 @@
+.divGral {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("../../images/fondo.jpg");
+  position: absolute;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: start;
+}
+
+.title {
+  color: rgb(26, 73, 160);
+  font-size: 30px;
+  text-align: center;
+  /* font-style: italic; */
+}
+
+.buttonsCont {
+  display: inline;
+  /* flex-direction: row;
+    align-items: left; */
+  /*justify-content:start; */
+  padding-left: 15%;
+}
+
+.button {
+  margin-right: 14px;
+  cursor: pointer;
+  background-color: rgb(209, 117, 84);
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #dda863;
+}
+
+.buttonSesionDiv {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 10px;
+  /* border: none; */
+}
+.buttonSesion {
+  padding: 15px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border:none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.buttonSesion:hover {
+  background-color: #dda863;
+}

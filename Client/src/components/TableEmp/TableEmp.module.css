@@ -1,0 +1,25 @@
+.container{
+    width: 70%;
+    
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    align-items:center;
+    background: rgba(119, 177, 211, 0.5);
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(2,3,4,0.1);
+}
+
+.head{
+    background: rgb(26, 73, 160, 0.5);
+}
+
+.cellHead{
+    width: 400px;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.cellRow {
+	font-size: 18px;
+}
