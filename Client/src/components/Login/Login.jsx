@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import { getUser } from "./services.js";
-//import './Login.css'
 import Styles from "./Login.module.css";
 import login from "../../images/login.png";
 import Cookies from 'universal-cookie';
@@ -10,16 +9,12 @@ import Cookies from 'universal-cookie';
 const cookies= new Cookies();
 
 function Login() {
-  // cookies.remove('email', {path:"/"});
-  // cookies.remove('pass', {path:"/"});
   const [user, setUser] = useState({
     email: "",
     password: "",
   });
 
   let navigate = useNavigate();
-
-  //var json;
 
   useEffect(async () => {
     if(cookies.get('email')){
@@ -84,7 +79,7 @@ function Login() {
                 onChange={(e) => handleChange(e)}
               />
               <div className={Styles.iconInput}>
-                <i class="fas fa-envelope"></i>
+                <i className="fas fa-envelope"></i>
               </div>
             </div>
             <div className={Styles.inputs}>
@@ -98,7 +93,7 @@ function Login() {
                 onChange={(e) => handleChange(e)}
               />
               <div className={Styles.iconInput}>
-              <i class="fas fa-unlock-alt"></i>
+              <i className="fas fa-unlock-alt"></i>
 
               </div>
             </div>

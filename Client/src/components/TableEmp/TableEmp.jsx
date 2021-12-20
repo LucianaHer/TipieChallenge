@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from './TableEmp.module.css'
 import {
-  Table,
   TableContainer,
   TableHead,
   TableCell,
@@ -10,8 +9,6 @@ import {
 } from "@material-ui/core";
 
 function TableEmp({ rows }) {
-  console.log("HOLAAAA");
-  console.log("Datos del Comp Tabla: ", rows);
   const columns = ["Nombre del Emplado", "Sector", "Edad", "Email"];
 
   return (

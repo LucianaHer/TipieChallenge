@@ -1,7 +1,5 @@
 const { Router } = require('express');
 
-//const STATUS_USER_ERROR = 422;
-
 const router = Router();
 
 router.get('/', (req,res)=>{

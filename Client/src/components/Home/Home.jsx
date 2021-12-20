@@ -9,7 +9,7 @@ const cookies= new Cookies();
 
 function Home() {
   let navigate = useNavigate();
-  console.log("COOKES: ", cookies.get('email'), cookies.get('pass'));
+  //console.log("COOKES: ", cookies.get('email'), cookies.get('pass'));
 
   const [data, setData] = useState([]);
   const [orig, setOrig] = useState([]);
